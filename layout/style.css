@@ -8,7 +8,7 @@
 color: #ffff;
 }
 .color-000000{
-    color: #000000;
+    color: #000000 !important;
 }
 .color-7F7F7F{
     color: #7F7F7F;
@@ -145,11 +145,11 @@ color: #ffff;
   .Subscribe-btn:hover {
     color: white;
   }
-  .Subscribe-btn:hover .arrow {
+  /* .Subscribe-btn:hover .arrow {
     margin-right: 0;
     animation: jello-vertical 0.9s both;
     transform-origin: right;
-  }
+  } */
   
   @keyframes jello-vertical {
     0% {
